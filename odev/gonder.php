@@ -14,6 +14,5 @@ if (isset($_POST["isim"], $_POST["mail"], $_POST["soyad"], $_POST["istekler"],$_
     }
         
     }
-}
 mysqli_close($conn);
 ?>
