@@ -1,4 +1,4 @@
-Bu sayfa hazır template kullanılarak yapılmış bir web sayfasıdır.İçersinde Php,js,mysql bağlantısı bulunmaktadır.
+Bu sayfa hazır template kullanılarak yapılmış bir web sayfasıdır.İçersinde Php,js,MySql bağlantısı bulunmaktadır.
 sql tablosunun ayrıntıları şunlardır;
 
 -- serveradı_ders_paket tablosunu oluşturma
