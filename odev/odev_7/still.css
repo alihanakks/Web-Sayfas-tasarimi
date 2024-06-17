@@ -1,0 +1,86 @@
+#ana {
+    margin: 0 auto;
+    width: 75vw;
+    padding-top: 10px;
+  
+}
+
+#baslik {
+    height: 200px;
+    background-color: aqua;
+}
+
+#logo {
+    float: left;
+    height: 180px;
+    width: 18%;
+    background-color: yellow;
+    margin: 1%;
+}
+
+#anabas {
+    float: left;
+    height: 180px;
+    width: 78%;
+    background-color: yellowgreen;
+    margin: 1%;
+}
+
+#ara {
+    margin-top: 10px;
+}
+
+#govde{
+    height: 50vw;
+    background-color: aqua;
+    padding-top: 0.5vw;
+}
+#linkler {
+    float: left;
+    width: 15vw;
+    margin-right: 0.5vw;
+    margin-left: 0.5vw;
+    
+    background-color: blueviolet;
+}
+
+#icerik {
+    float: left;
+    background-color: coral;
+    min-height: 300px;
+    width: 58vw;
+}
+
+#alt {
+    min-height: 70px;
+    background-color: gainsboro;
+    margin-top: 10px;
+}
+#navigasyon{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px
+  }
+  
+  #navigasyon li{
+    line-height: 150%;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  #navigasyon a{
+    color:white;
+    text-decoration: none;
+    font-size: 150%;
+    width: 100%;
+  
+  }
+  
+  #navigasyon a:hover{
+    color:darkgray;
+  }
+  
+  .phptablo{
+    border:1px solid #000;
+  }

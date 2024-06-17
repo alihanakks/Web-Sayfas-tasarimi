@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Elemanları ve Özellikleri</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input, select, textarea, button {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+        button {
+            width: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Form Elemanları ve Özellikleri</h1>
+    <form action="/submit" method="POST">
+        <div class="form-group">
+            <label for="text">Metin Kutusu:</label>
+            <input type="text" id="text" name="text" placeholder="Metin giriniz" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Parola Kutusu:</label>
+            <input type="password" id="password" name="password" placeholder="Parolanızı giriniz" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-posta:</label>
+            <input type="email" id="email" name="email" placeholder="E-posta adresinizi giriniz" required>
+        </div>
+
+        <div class="form-group">
+            <label for="number">Sayı:</label>
+            <input type="number" id="number" name="number" min="1" max="10">
+        </div>
+
+        <div class="form-group">
+            <label for="date">Tarih:</label>
+            <input type="date" id="date" name="date">
+        </div>
+
+        <div class="form-group">
+            <label for="color">Renk:</label>
+            <input type="color" id="color" name="color" value="#ff0000">
+        </div>
+
+        <div class="form-group">
+            <label for="select">Seçim Kutusu:</label>
+            <select id="select" name="select">
+                <option value="option1">Seçenek 1</option>
+                <option value="option2">Seçenek 2</option>
+                <option value="option3">Seçenek 3</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Radyo Butonları:</label>
+            <input type="radio" id="radio1" name="radio" value="option1">
+            <label for="radio1">Seçenek 1</label>
+            <input type="radio" id="radio2" name="radio" value="option2">
+            <label for="radio2">Seçenek 2</label>
+            <input type="radio" id="radio3" name="radio" value="option3">
+            <label for="radio3">Seçenek 3</label>
+        </div>
+
+        <div class="form-group">
+            <label>Onay Kutuları:</label>
+            <input type="checkbox" id="checkbox1" name="checkbox1" value="option1">
+            <label for="checkbox1">Seçenek 1</label>
+            <input type="checkbox" id="checkbox2" name="checkbox2" value="option2">
+            <label for="checkbox2">Seçenek 2</label>
+            <input type="checkbox" id="checkbox3" name="checkbox3" value="option3">
+            <label for="checkbox3">Seçenek 3</label>
+        </div>
+
+        <div class="form-group">
+            <label for="textarea">Metin Alanı:</label>
+            <textarea id="textarea" name="textarea" rows="4" placeholder="Metin giriniz"></textarea>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" >Gönder</button>
+        </div>
+        <div>
+            
+            <a href="/index.html" target="_parent">a</a>
+        </div>
+    </form>
+</body>
+</html>

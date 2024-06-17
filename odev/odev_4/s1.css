@@ -1,0 +1,114 @@
+*{
+    font-style: italic;
+    
+}
+body {
+    background-image: url("a.jpg");
+    background-repeat: repeat;
+
+}
+
+#conteiner {
+
+    width: 1200px;
+    height: 12000px;
+    background-color: antiquewhite;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: green;
+}
+
+#header {
+
+    width: 1200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+#logo {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.logo-div {
+    width: 200px;
+    height: 200px;
+    background-image: url('b.jpeg');
+    background-size: cover;
+    background-position: center;
+    
+}
+#anabas{
+    float: left;
+    margin-left: 450px;
+    
+    margin-top: 60px;
+
+}
+
+#clear-header{
+    clear: both;
+}
+#govde{
+    background-color: white;
+    width: auto;;
+    height: auto;
+}
+#menu {
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-top: 10px;
+    
+}
+#menu a{
+    width: 200px;
+    height: 60px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-weight:1000;
+
+}
+.menu-div {
+    width: 0px;
+    height: 0px;
+    
+    background-color: #82BF78;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+#menus {
+    padding: 0PX;
+    margin: 0px;
+   
+
+}
+
+
+#ms{
+    float: left;
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    margin-top: 10px;
+    
+}
+
+#baslik{
+    text-align: center;
+    display: block;
+    font-weight: 300;
+
+}
+
+
