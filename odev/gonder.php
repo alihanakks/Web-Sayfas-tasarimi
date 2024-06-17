@@ -10,6 +10,8 @@ if (isset($_POST["isim"], $_POST["mail"], $_POST["soyad"], $_POST["istekler"],$_
     if ($conn->query($ekle) !== True) {
         echo "<script> alert('işlem başarısız lütfen girdilerinizi kontrol ediniz !')</script>";
     }else{
+        echo "<script> alert('Randevu alındı.Bizi tercih ettiğiniz için teşekkürşer.')</script>";
+    }
         
     }
 }
